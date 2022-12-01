@@ -1,0 +1,22 @@
+h1{ 
+    color: white;
+    padding: 30px;
+    margin: 50px;
+    background-color: black;
+  }
+  
+  body { background-image:url('https://media4.giphy.com/media/3ov9k22S4De372LQf6/giphy.gif?cid=ecf05e47uzob26koargbnatcn82vawieb55jddvn2x2oz3b4&rid=giphy.gif&ct=g'); 
+  background-repeat:repeat; 
+    color: white;
+    font-family: Monospace;
+  }
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .gif{
+  height: 200px;
+  width: 200px;
+  }
+  
