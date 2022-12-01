@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color:black;
+  }
+  
+  .loading {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    animation-name: grow-width-height;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-timing-function:cubic-cubic-bezier(.3,-1.24,.27,1.44);
+    
+  }
+  
+  @keyframes grow-width-height {
+    from {
+      transform: translate(-50%, -50%) scale(1);
+      width: 100px;
+      height: 10px;e
+      background-color: green;
+      opacity:0;
+    }
+  
+    to {
+      transform: translate(-50%, -50%) scale(1);
+      width: 100px;
+      height: 50px;
+      background-color: yellow;
+      opacity:3;
+    }
+}
+  
+  .circle1{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation:waiting 2s infinite alternate;
+    border-radius:50%;
+    
+  }
+  @keyframes waiting{
+  
+    0%{
+      border-radius:50%;
+      transform:translateY(0);
+      background-color:tan;
+    }
+  
+    50%{
+      border-radius:50%;
+      transform:translateY(-100%);
+      background-color: green;  
+    }
+    
+    100%{
+      border-radius:50%;
+      transform:translateY(0);
+      background-color:tan;
+    }
+}
