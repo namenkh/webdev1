@@ -28,7 +28,7 @@
     from {
       transform: translate(-50%, -50%) scale(1);
       width: 100px;
-      height: 10px;e
+      height: 10px;
       background-color: green;
       opacity:0;
     }
