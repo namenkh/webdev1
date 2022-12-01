@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #eca4fb;
+  padding: 0.5rem;
+  max-width: 40rem;
+  margin:0 auto;
+}
+.container {
+  border-radius: 12px;
+  margin: 0 auto;
+  display: flex;
+  background-color: white;
+  max-width: auto;
+  border-radius: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+img {
+  border-radius: 12px;
+  width: 100%;
+  padding:6px;
+}
+p{
+  margin:1rem 0;
+  line-height:1.5;
+  font-size: 0.7rem;
+}
+.img {
+  flex-basis: 60%;
+  flex-grow: 1;
+}
+.words {
+  flex-basis: 35%;
+  flex-grow: 1;
+  min-width:9rem;
+}
