@@ -25,13 +25,14 @@ h1,h2 {
 p{
    color:darkslategray;
    background-color: rgb(244, 210, 147);
-   line-height: 0.90;
+   line-height: 2;
    font-size: 1.5rem;
    padding:30px;
 }
 
 a {
     color:oldlace;
+    line-height: 3;
 }
 
 nav {
