@@ -33,6 +33,11 @@ h2 {
 h2 {
   text-align: center;
 }
+img {
+    width: 100%;
+    display: block;
+    margin: 4rem 0;
+  }
 
 .quote{
     color:#ea9ab2;
